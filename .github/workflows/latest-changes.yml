@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.LABEL_APPROVED_LATEST_CHANGES }}
+          token: ${{ secrets.ORG_API_KEY }}
       - uses: docker://khulnasoft/latest-changes-action:0.3.0
       # - uses: khulnasoft/latest-changes-action@main
         with:
