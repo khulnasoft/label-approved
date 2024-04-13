@@ -21,9 +21,9 @@ jobs:
   label-approved:
     runs-on: ubuntu-latest
     steps:
-    - uses: docker://khulnasoft/label-approved:0.0.3
+    - uses: docker://khulnasoft/label-approved:0.0.4
     # You can also use the action directly, but that will take about an extra minute:
-    # - uses: khulnasoft/label-approved@0.0.3
+    # - uses: khulnasoft/label-approved@0.0.4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -67,7 +67,7 @@ jobs:
   label-approved:
     runs-on: ubuntu-latest
     steps:
-    - uses: docker://khulnasoft/label-approved:0.0.3
+    - uses: docker://khulnasoft/label-approved:0.0.4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         config: >
