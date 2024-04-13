@@ -1,5 +1,5 @@
 name: Khulnasoft's Label Approved
-author: Sebastián Ramírez <khulnasoft@gmail.com>
+author: KhulnaSoft DevOps <info@khulnasoft.com>
 description: Add labels to approved Pull Requests
 inputs:
   token:
